@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_name"
+        android:hint="Enter course name"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/editbox_background"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_credit"
+        android:hint="Enter course credit"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/editbox_background"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_grade"
+        android:hint="Enter course grade"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/editbox_background"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_type"
+        android:hint="Enter course type"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/editbox_background"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_completed"
+        android:hint="Course completed (1 if yes / 0 if no)"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/editbox_background"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_update"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:src="@drawable/ic_done"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_custom"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
